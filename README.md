@@ -1,4 +1,4 @@
-SKRCTF Writeups - Unveiling My Journey! 🎉
+#SKRCTF Writeups - Unveiling My Journey! 🎉
 
 My approach to the SKRCTF revolves around three key goals:
 
