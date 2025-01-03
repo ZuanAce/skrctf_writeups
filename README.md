@@ -1,9 +1,7 @@
-# SKRCTF Writeups - Unveiling My Journey! 🎉
+# SKRCTF Writeups 
 
-My approach to the SKRCTF revolves around three key goals:
-* **Learn**: Each challenge provides a valuable chance to learn new cybersecurity skills, tools, or ideas.
-* **Collaborate**: I enjoy working with other participants to share ideas and knowledge, which makes the learning experience better for everyone.
-* **Document**: For every challenge I solve, I will try write up a detailed explanation. These documents help others learn from my experience and also help me to better understand the concepts myself.
-* **Challenge**: I will seek out more challenging tasks within the CTF to gain more confidence and expertise
+SKR is a Malaysian CTF team that has been competing in CTF challenges since 2018. 
+This [website](https://skrctf.me/) aims to help beginners learn how to tackle CTF challenges and build cybersecurity skills through hands-on practice.
   
+![image](https://github.com/user-attachments/assets/95af8b58-235c-4ce5-becf-52ff0f48a288)
 
