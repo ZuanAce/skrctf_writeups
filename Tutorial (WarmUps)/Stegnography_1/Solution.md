@@ -5,16 +5,34 @@
 
 
 ## Approach
-This challenge is straightforward. Simply use a QR code scanner to read the code. You can use:
-- A QR scanner app on your smartphone.
-- Online tools, such as [QRCodeRaptor](https://qrcoderaptor.com/).
+First, I used the file command to confirm the format and details of the file:
 
-After scanning the QR code, the flag is instantly revealed.
+```bash
+┌──(kali㉿kali)-[~/Downloads/skr]
+└─$ file flag.png
+flag.png: PNG image data, 1111 x 540, 8-bit/color RGB, non-interlaced
+```
+The file is a standard PNG image with dimensions of 1111x540 pixels.
 
-![image](https://github.com/user-attachments/assets/d17782d7-dcc7-4321-9b28-b5217b605f96)
+Next, I used exiftool to inspect the metadata for any clues: 
+
+`exiftool flag.png`
+
+The output revealed no unusual metadata, but it confirmed the file's specifications:
+- File type: PNG
+- Color type: RGB
+- Compression: Deflate/Inflate
+- No hidden metadata or suspicious entries were found.
+
+Using Stegsolve, I analyzed the image by applying various color maps and filters to uncover hidden information.
+1. Loaded the image in Stegsolve.
+2. Applied different color planes using the "Random Color Map" feature.
+3. After cycling through the maps, the hidden flag appeared embedded within the image.
+   
+![image](https://github.com/user-attachments/assets/39a2d185-4f84-4662-afe5-ebbdc282a2c2)
 
 ## Flag: 
-SKR{QR_1s_s0_51mpLe}
+SKR{Th1is_1s so H@rd_TO S33}
 
 
    
